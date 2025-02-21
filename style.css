@@ -151,6 +151,7 @@ section {
 
 ::-webkit-scrollbar-thumb {
     background: whitesmoke;
+    border-radius: 20%;
 }
 
 #about {
@@ -239,7 +240,7 @@ section {
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     overflow: auto;
     object-fit: cover;
     padding: 1em;
@@ -379,38 +380,6 @@ form input:focus {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
 }
 
-.item9 {
-    animation-delay: calc(30s / 8 * (8 - 1) * -1);
-}
-
-.item10 {
-    animation-delay: calc(30s / 8 * (8 - 2) * -1);
-}
-
-.item11 {
-    animation-delay: calc(30s / 8 * (8 - 3) * -1);
-}
-
-.item12 {
-    animation-delay: calc(30s / 8 * (8 - 4) * -1);
-}
-
-.item13 {
-    animation-delay: calc(30s / 8 * (8 - 5) * -1);
-}
-
-.item14 {
-    animation-delay: calc(30s / 8 * (8 - 6) * -1);
-}
-
-.item15 {
-    animation-delay: calc(30s / 8 * (8 - 7) * -1);
-}
-
-.item16 {
-    animation-delay: calc(30s / 8 * (8 - 8) * -1);
-}
-
 .item img {
     width: 200px;
     height: 100px;
@@ -479,6 +448,14 @@ footer {
 
 .social-icons i:hover {
     color: white;
+}
+
+.col-middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: grey;
+    background-color: var(--background);
 }
 
 @media(max-width: 968px){
