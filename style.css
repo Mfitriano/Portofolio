@@ -536,6 +536,10 @@ footer {
         gap: 3em;
     }
 
+    #about img {
+        width: 0px;
+    }
+
     #experience .header{
         font-size: 3em;
     }
